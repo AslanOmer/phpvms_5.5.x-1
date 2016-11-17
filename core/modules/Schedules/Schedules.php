@@ -214,7 +214,7 @@ class Schedules extends CodonModule {
         # Do some filtering and whatnots, take it out of the template...      
         $today = getdate();
         $week_number = intval(($today['mday'] - 1) / 7) + 1;
-        $current_day == date('w');
+        $current_day = date('w');
         $var_name = 'week'.$week_number;
         
         # query once, save for later
